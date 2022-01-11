@@ -4,6 +4,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { CardActionArea, Typography, CardContent, Card } from '@mui/material';
 
 function App() {
     
@@ -11,62 +12,104 @@ function App() {
         dots: true
         , infinite: false
         , speed: 500
-        , slidesPerRow: 3
-        , rows: 3
+        , slidesPerRow: 2
+        , rows: 2
     };
 
     return (
         <>
             
           <Slider {...settings}>
-            <div>
-              <h3>12</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
-            <div>
-              <h3>7</h3>
-            </div>
-            <div>
-              <h3>8</h3>
-            </div>
-            <div>
-              <h3>9</h3>
-            </div>
-            <div>
-              <h3>10</h3>
-            </div>
-            <div>
-              <h3>11</h3>
-            </div>
-            <div>
-              <h3>12</h3>
-            </div>
-            <div>
-              <h3>13</h3>
-            </div>
-            <div>
-              <h3>14</h3>
-            </div>
-            <div>
-              <h3>15</h3>
-            </div>
-            <div>
-              <h3>16</h3>
-            </div>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀1
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀2
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀3
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀4
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀5
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
+          <Card>
+              <CardActionArea>
+                  <CardContent className="card_content">
+                      <Typography gutterBottom variant="h5" component="div">
+                        타이틀6
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        내용
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        날짜
+                      </Typography>
+                  </CardContent>
+              </CardActionArea>
+          </Card>
           </Slider>
         </>
     );
