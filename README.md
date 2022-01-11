@@ -1,3 +1,2 @@
-# Multiple row carousel components using react-slick.
+# Multiple row carousel components using react-slick / mui-card.
 
-After that, we plan to expand the project using mui-card.
