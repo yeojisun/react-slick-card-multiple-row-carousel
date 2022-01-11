@@ -2,6 +2,7 @@
   "name": "react-slick-card-multiple-row-carousel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yeojisun.github.io/react-slick-card-multiple-row-carousel/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
